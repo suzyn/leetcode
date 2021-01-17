@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Array_TwoSum", "Array_TwoSum\Array_TwoSum.pyproj", "{0DA243CF-D25B-41D6-9301-A01ABCB3C15D}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TwoSum", "TwoSum\TwoSum.pyproj", "{FEF8EFC5-0FB3-4DBE-B5CA-E2D2768F7C73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0DA243CF-D25B-41D6-9301-A01ABCB3C15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0DA243CF-D25B-41D6-9301-A01ABCB3C15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF8EFC5-0FB3-4DBE-B5CA-E2D2768F7C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF8EFC5-0FB3-4DBE-B5CA-E2D2768F7C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {14491FAE-2739-4625-9F0F-AB7C1EC3763C}
+		SolutionGuid = {CEF4B78D-B09C-4DBC-AF9E-BE738951A777}
 	EndGlobalSection
 EndGlobal

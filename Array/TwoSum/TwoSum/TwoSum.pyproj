@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>0da243cf-d25b-41d6-9301-a01abcb3c15d</ProjectGuid>
+    <ProjectGuid>fef8efc5-0fb3-4dbe-b5ca-e2d2768f7c73</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Array_TwoSum.py</StartupFile>
+    <StartupFile>TwoSum.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Array_TwoSum</Name>
-    <RootNamespace>Array_TwoSum</RootNamespace>
+    <Name>TwoSum</Name>
+    <RootNamespace>TwoSum</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Array_TwoSum.py" />
+    <Compile Include="TwoSum.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
