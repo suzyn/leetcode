@@ -14,21 +14,21 @@ class Solution(object):
         return False
     
     
-        # Approach2 : Sorting Algorithm (104ms, 17.1MB)
+        # Approach2 : Sorting Algorithm (116ms, 17.2MB)
         nums.sort()
         for i in range(len(nums)-1):
             if(nums[i]==nums[i+1]): return True
         return False
     
     
-        # Approach3 : Hash Table (112ms, 19.8MB)
+        # Approach3 : Hash Table (112ms, 19.4MB)
         hashmap=defaultdict(int)
         for i in range(len(nums)):
             hashmap[nums[i]]+=1
             if(hashmap[nums[i]]==2): return True
     
     
-	    # Approach4 : Hash Table (108ms, 19.4MB)
+	    # Approach4 : Hash Table (112ms, 19.6MB)
         nums.sort()
         hashmap=defaultdict(int)
         for i in range(len(nums)):
@@ -36,7 +36,7 @@ class Solution(object):
             if(hashmap[nums[i]]==2): return True    
         '''  
 
-        # Approach5 : set() 이용 
+        # Approach5 : set() 이용 (92ms, 19.8MB)
         set_list=set(nums)
         for i in range(len(nums)):
             if len(nums)==len(set_list): return False
