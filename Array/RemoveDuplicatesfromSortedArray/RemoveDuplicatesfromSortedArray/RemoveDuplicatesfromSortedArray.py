@@ -9,14 +9,12 @@ class Solution(object):
         # (64ms, 15.2MB)
         pt1=0
         pt2=0
-    
         while(pt2<len(nums)):
             if(nums[pt1]!=nums[pt2]):
                 nums[pt1+1], nums[pt2] = nums[pt2], nums[pt1+1]
                 pt1+=1
                 pt2+=1
             else:pt2+=1
-        
         return pt1+1
         '''
         
