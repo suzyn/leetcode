@@ -1,3 +1,4 @@
+
 # Node 클래스 선언 
 class Node(object) : 
     def __init__(self,data):
